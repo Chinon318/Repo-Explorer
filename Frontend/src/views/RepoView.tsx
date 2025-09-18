@@ -39,7 +39,7 @@ export default function RepoView() {
                 {repos.map((repo, i) => (
                     <li key={i} className="border-b last:border-none py-2">
                     <a
-                        href={repo.url}
+                        href={repo.html_Url}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-blue-600 hover:underline"
